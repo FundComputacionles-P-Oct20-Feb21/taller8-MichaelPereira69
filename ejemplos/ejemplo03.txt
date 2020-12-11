@@ -2,9 +2,9 @@
 1.  Inicio
 2.  (notasMatematica(3),i[0-n])
 3.  (notasCiencias(3),i[0-n])
-4.  (promedio(2),i[0-n])
+4.  (promedio(2), d[0-n])
 5.  indice, i[0-n]
-6.  suma, i[0-n]
+6.  suma, i[0-n] <-- 0
 7.  notasMatematica[0] <-- 8
 8.  notasMatematica[1] <-- 9
 9.  notasMatematica[2] <-- 10

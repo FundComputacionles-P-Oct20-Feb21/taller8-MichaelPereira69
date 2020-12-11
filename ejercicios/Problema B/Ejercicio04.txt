@@ -1,0 +1,32 @@
+B. Generar una miniespecificación que permita ingresar los valor de ventas 
+de un vendedor por cada día de la semana (lunes a viernes); 
+donde día 0 es Lunes. Usar 2 arreglos.
+
+
+
+
+-----------------------Miniespsificaciones 
+1.Inicio
+2.(dias(5), x(20)[{a-z}, {BS}])
+3.ventas(5), i[0-n]
+4.indice, i[0-n] 
+5.  dias[0]<-- "Lunes"
+6.  dias[1]<-- "Martes"
+7.  dias[2]<-- "Miércoles"
+8.  dias[3]<-- "Jueves"
+9.  dias[4]<-- "Viernes"
+10. mientras Indice <5 entonces
+11    Escribir "Ingresar El Valor de Ventas Del dia" + dias [Indice]
+12    leer ventas[Indice]
+13    Indice <-- Indice +1
+14  Fin mientras
+15   Indice <-- 0
+16  mientras indice < 5 entonces
+17    Escribir dias [Indice] + "$" + ventas [Indice]
+18    Indice <-- Indice +1
+19 fin miertas 
+20fin
+
+
+
+
